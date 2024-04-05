@@ -1,0 +1,29 @@
+[package]
+name = "alloy-enum-bug"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+alloy = { git = "https://github.com/alloy-rs/alloy", rev = "bfd0fda", features = [
+    "contract",
+    "network",
+    "node-bindings",
+    "providers",
+    "provider-http",
+    "provider-ipc",
+    "provider-ws",
+    "rpc-client",
+    "rpc-client-ipc",
+    "rpc-client-ws",
+    "rpc-types-eth",
+    "rpc-types-trace",
+    "signers",
+    "signer-keystore",
+    "signer-ledger",
+    "signer-mnemonic",
+    "signer-trezor",
+    "signer-wallet",
+    "signer-yubihsm",
+] }

@@ -1,0 +1,145 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b533de4759eda5b919b14e8fca4df9b116f30f31fbdfd452cf29c0a2c275512e64736f6c63430008160033",
+    "sourceMap": "25:75:25:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220b533de4759eda5b919b14e8fca4df9b116f30f31fbdfd452cf29c0a2c275512e64736f6c63430008160033",
+    "sourceMap": "25:75:25:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.22+commit.4fc1097e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Contract.sol\":\"Contract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":elliptic-curve-solidity.git/=lib/elliptic-curve-solidity.git/\",\":elliptic-curve-solidity/=lib/elliptic-curve-solidity.git/\",\":forge-std/=lib/forge-std/src/\",\":solady/=lib/solady/\"]},\"sources\":{\"src/Contract.sol\":{\"keccak256\":\"0x08b5fdc51b5696517080e39bcb4820701dd16e7bfb4599f41af8bb037380e8ea\",\"urls\":[\"bzz-raw://00052bf12c5fb2c06f4d4dbe1f494300ca902a3a9e2c25e0920fb57c3db82ef3\",\"dweb:/ipfs/Qmb9u5wnkkKQW4ENb7N7N4z1ReeJAbsxArhK2bcqjjJ88R\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.22+commit.4fc1097e"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "elliptic-curve-solidity.git/=lib/elliptic-curve-solidity.git/",
+        "elliptic-curve-solidity/=lib/elliptic-curve-solidity.git/",
+        "forge-std/=lib/forge-std/src/",
+        "solady/=lib/solady/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Contract.sol": "Contract"
+      },
+      "evmVersion": "paris",
+      "libraries": {}
+    },
+    "sources": {
+      "src/Contract.sol": {
+        "keccak256": "0x08b5fdc51b5696517080e39bcb4820701dd16e7bfb4599f41af8bb037380e8ea",
+        "urls": [
+          "bzz-raw://00052bf12c5fb2c06f4d4dbe1f494300ca902a3a9e2c25e0920fb57c3db82ef3",
+          "dweb:/ipfs/Qmb9u5wnkkKQW4ENb7N7N4z1ReeJAbsxArhK2bcqjjJ88R"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Contract.sol",
+    "id": 46152,
+    "exportedSymbols": {
+      "Contract": [
+        46151
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:101:25",
+    "nodes": [
+      {
+        "id": 46146,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:25",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 46151,
+        "nodeType": "ContractDefinition",
+        "src": "25:75:25",
+        "nodes": [
+          {
+            "id": 46150,
+            "nodeType": "EnumDefinition",
+            "src": "49:49:25",
+            "nodes": [],
+            "canonicalName": "Contract.Enum",
+            "members": [
+              {
+                "id": 46147,
+                "name": "A",
+                "nameLocation": "69:1:25",
+                "nodeType": "EnumValue",
+                "src": "69:1:25"
+              },
+              {
+                "id": 46148,
+                "name": "B",
+                "nameLocation": "80:1:25",
+                "nodeType": "EnumValue",
+                "src": "80:1:25"
+              },
+              {
+                "id": 46149,
+                "name": "C",
+                "nameLocation": "91:1:25",
+                "nodeType": "EnumValue",
+                "src": "91:1:25"
+              }
+            ],
+            "name": "Enum",
+            "nameLocation": "54:4:25"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Contract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          46151
+        ],
+        "name": "Contract",
+        "nameLocation": "34:8:25",
+        "scope": 46152,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 25
+}
